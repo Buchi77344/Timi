@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0d1b2a;          /* near-black blueprint navy — dark sections, primary text */
+  --blueprint: #17436e;     /* cyanotype blue — brand / primary accent */
+  --blueprint-light: #6fa3cf; /* line blue — grid lines, secondary accent */
+  --paper: #f6f6f2;         /* cool vellum paper — light section background */
+  --paper-line: #dcded6;    /* hairline on paper */
+  --brass: #b9812f;         /* brass signage accent — CTAs, highlights */
+  --patina: #3c6b62;        /* copper-patina accent — tags, data */
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-blueprint: var(--blueprint);
+  --color-blueprint-light: var(--blueprint-light);
+  --color-paper: var(--paper);
+  --color-paper-line: var(--paper-line);
+  --color-brass: var(--brass);
+  --color-patina: var(--patina);
+
+  --font-display: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-plex-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+/* Blueprint grid backdrop used in dark title-block sections */
+.blueprint-grid {
+  background-color: var(--ink);
+  background-image:
+    linear-gradient(rgba(111, 163, 207, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(111, 163, 207, 0.16) 1px, transparent 1px),
+    linear-gradient(rgba(111, 163, 207, 0.32) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(111, 163, 207, 0.32) 1px, transparent 1px);
+  background-size: 16px 16px, 16px 16px, 96px 96px, 96px 96px;
+  background-position: -1px -1px;
+}
+
+/* Faint paper-grade grid for light sections */
+.paper-grid {
+  background-image:
+    linear-gradient(var(--paper-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--paper-line) 1px, transparent 1px);
+  background-size: 96px 96px;
+  background-position: -1px -1px;
+}
+
+.draft-line {
+  stroke-dasharray: 2200;
+  stroke-dashoffset: 2200;
+  animation: draft 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.draft-line-delay {
+  animation-delay: 0.3s;
+}
+
+@keyframes draft {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .draft-line {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
