@@ -11,38 +11,38 @@ type Module = {
 const modules: Module[] = [
   {
     tag: "Module — Web",
-    title: "Real estate websites",
+    title: "Websites that convert",
     description:
-      "Property listing sites, investment landing pages, agent and brokerage sites, rental platforms — built to convert visitors into leads, not just look good.",
+      "Business sites, landing pages, portfolios, church and non-profit sites, news and blog builds — any kind of website, designed to turn visitors into customers, not just look good.",
     items: [
-      "Custom WordPress/PHP or React builds",
-      "SEO-structured listing pages",
+      "Custom WordPress/PHP or React/Next.js builds",
+      "SEO structure & performance built in from day one",
       "Lead capture forms & funnels",
-      "News, blog & article systems",
+      "News, blog & article systems you can self-manage",
     ],
   },
   {
-    tag: "Module — CRM",
-    title: "Software & platforms",
+    tag: "Module — Apps",
+    title: "Web apps & platforms",
     description:
-      "The systems behind the website — CRMs, portals, and dashboards that keep listings, leads, and deals in one place instead of five disconnected tools.",
+      "E-commerce stores, booking systems, marketplaces, school portals, and CRMs — the systems behind the website, keeping products, bookings, and clients in one place instead of five disconnected tools.",
     items: [
-      "Custom CRMs & client portals",
-      "Property marketplaces & aggregators",
-      "Subscription billing & tiered access",
-      "Multi-tenant, compliance-ready platforms",
+      "E-commerce stores with payments & order admin",
+      "Booking & scheduling systems",
+      "CRMs, dashboards & client portals",
+      "Multi-tenant, role-based platforms",
     ],
   },
   {
-    tag: "Module — Calc",
-    title: "Deal analysis engines",
+    tag: "Module — Data",
+    title: "Calculators & data tools",
     description:
-      "Underwriting and decision tools where the math has to be right, not just the interface — built on an Industrial Mathematics background.",
+      "Quoting engines, scoring models, and dashboards where the math has to be right, not just the interface — built on an Industrial Mathematics background.",
     items: [
-      "Cash flow & ROI projection tools",
-      "Comparative market analysis (CMA)",
-      "Property scoring & ranking engines",
-      "Risk, flood & zoning data aggregation",
+      "Cost, ROI & savings calculators",
+      "Scoring & ranking engines",
+      "Dashboards & reporting",
+      "Data pipelines aggregating dozens of external APIs",
     ],
   },
   {
@@ -53,8 +53,8 @@ const modules: Module[] = [
     items: [
       "AI lead scoring across multiple LLM providers for reliability",
       "AI-drafted replies across WhatsApp, email & web chat",
-      "n8n workflows connecting CRM, calendar & listings",
-      "Chatbots for listing Q&A, qualification & appointment booking",
+      "n8n workflows connecting CRM, calendar & the tools you already use",
+      "Chatbots for site Q&A, lead qualification & appointment booking",
     ],
   },
 ];
@@ -71,9 +71,9 @@ export default function Services() {
             Four modules, one build
           </h2>
           <p className="mt-4 text-ink/70">
-            Everything below is something I&apos;ve shipped for agents,
-            investors, brokerages, and proptech founders — and can build for
-            you, standalone or wired together into one pipeline.
+            Everything below is something I&apos;ve shipped for clients and
+            own products — and can build for you, standalone or wired
+            together into one system.
           </p>
         </Reveal>
 

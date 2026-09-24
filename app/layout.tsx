@@ -21,9 +21,9 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Timi Festus — Real Estate Software & AI Automation Developer",
+  title: "Timi Festus — Full-Stack Web & App Developer",
   description:
-    "Solo full-stack developer building real estate websites, CRMs, deal-analysis tools, and AI automation for agents, brokerages, and proptech founders.",
+    "Solo full-stack developer building any kind of website or web app — business sites, e-commerce, booking platforms, CRMs, and AI automation. 12+ projects shipped.",
 };
 
 export default function RootLayout({

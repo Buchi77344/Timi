@@ -12,24 +12,24 @@ export default function Hero() {
             <Reveal>
               <p className="mb-6 inline-flex items-center gap-2 rounded-sm border border-blueprint-light/40 px-3 py-1 font-mono text-[11px] uppercase tracking-widest text-blueprint-light">
                 <span className="h-1.5 w-1.5 rounded-full bg-brass" />
-                Full-stack software · AI automation · Real estate
+                Full-stack web · Web apps · AI automation
               </p>
             </Reveal>
 
             <Reveal delay={0.05}>
               <h1 className="font-display text-4xl font-semibold leading-[1.08] tracking-tight text-paper md:text-6xl">
-                I ship full-stack software
+                I build full-stack websites
                 <br />
-                &amp; AI automation that works.
+                &amp; web apps that convert.
               </h1>
             </Reveal>
 
             <Reveal delay={0.1}>
               <p className="mt-6 max-w-lg text-base leading-relaxed text-paper/70 md:text-lg">
-                Websites that sell, AI lead responses in minutes instead of
-                days, and CRMs that replace five disconnected tools — built
-                end to end across real estate, AI, and full-stack builds.
-                One developer, no account managers, no handoffs.
+                Business sites, online stores, booking platforms, CRMs,
+                dashboards, and AI automation — designed, built, and shipped
+                end to end. One developer, no account managers, no agency
+                layers, no handoffs.
               </p>
             </Reveal>
 
@@ -74,9 +74,9 @@ export default function Hero() {
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-2xl font-semibold text-paper md:text-3xl">4,300+</dt>
+                  <dt className="text-2xl font-semibold text-paper md:text-3xl">12+</dt>
                   <dd className="mt-1 text-[11px] uppercase tracking-widest text-paper/50">
-                    Live listings synced in production
+                    Projects shipped to production
                   </dd>
                 </div>
                 <div>

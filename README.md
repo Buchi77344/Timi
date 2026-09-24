@@ -1,6 +1,6 @@
 # Timi Festus — Portfolio
 
-Next.js (App Router) + TypeScript + Tailwind v4 portfolio site: "Real Estate Website/Software Developer | AI Automation Expert".
+Next.js (App Router) + TypeScript + Tailwind v4 portfolio site for a full-stack developer — any kind of website or web app, plus AI automation.
 
 ## Run locally
 
@@ -27,7 +27,7 @@ app/
   components/
     Nav.tsx          Sticky nav
     Hero.tsx          Hero with animated "drafted" floor-plan SVG + title block
-    Services.tsx      4 build modules: Web, CRM, Deal Analysis, AI Automation
+    Services.tsx      4 build modules: Websites, Web apps, Data tools, AI Automation
     TechStack.tsx      Stack as a materials schedule
     Process.tsx        How-I-work statement block
     Contact.tsx         CTA + footer
@@ -36,8 +36,8 @@ app/
 ## Design direction
 
 Blueprint / cyanotype aesthetic — grid lines, coordinate ticks, and a drafting
-title block, since the subject (real estate + building software) lends itself
-to architectural-drawing motifs rather than a generic SaaS template. Palette
+title block, since the blueprint/drafting aesthetic reads as craft and precision
+rather than a generic SaaS template. Palette
 lives in `app/globals.css` as CSS variables (`--ink`, `--blueprint`, `--brass`,
 `--patina`, `--paper`) if you want to retune it.
 # Timi

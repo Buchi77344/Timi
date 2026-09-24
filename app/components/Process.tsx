@@ -17,9 +17,9 @@ export default function Process() {
             <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-brass" />
             <p className="text-ink/70">
               A B.Sc. in Industrial Mathematics shows up in how the logic
-              gets built — scoring models, deal-analysis math, and data
-              pipelines are checked for correctness, not just wired up to
-              look finished.
+              gets built — scoring models, calculators, and data pipelines
+              are checked for correctness, not just wired up to look
+              finished.
             </p>
           </div>
           <div className="flex gap-4">

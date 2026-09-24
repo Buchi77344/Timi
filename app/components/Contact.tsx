@@ -19,14 +19,15 @@ export default function Contact() {
               Start a project
             </p>
             <h2 className="mt-4 font-display text-3xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Tell me what your
+              Tell me what you
               <br />
-              real estate business needs.
+              want to build.
             </h2>
             <p className="mt-5 max-w-md text-paper/65">
-              Website, CRM, deal-analysis tool, AI automation — or all four
-              wired together. Message me with what you&apos;re trying to
-              build and I&apos;ll tell you honestly what it takes.
+              Website, web app, online store, booking system, or AI
+              automation — or all of it wired together. Message me with what
+              you&apos;re trying to build and I&apos;ll tell you honestly
+              what it takes.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
@@ -95,7 +96,7 @@ export default function Contact() {
       <div className="border-t border-blueprint-light/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-6 font-mono text-[11px] uppercase tracking-widest text-paper/40 sm:flex-row sm:items-center sm:justify-between">
           <span>&copy; {new Date().getFullYear()} Timi Festus</span>
-          <span>Full-stack developer · Real estate software · AI automation</span>
+          <span>Full-stack developer · Websites &amp; web apps · AI automation</span>
         </div>
       </div>
     </section>
